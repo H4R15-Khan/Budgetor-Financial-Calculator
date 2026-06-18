@@ -11,11 +11,25 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <header class="site-header">
+      <nav class="top-nav" aria-label="Primary">
+        <a class="brand-link" href="#page-title" aria-label="Budgetor home">
+          <img
+            class="brand-logo"
+            src="Assets/budgetor-logo-v1.svg"
+            alt="Budgetor"
+            width="206"
+            height="29"
+          />
+        </a>
+      </nav>
+    </header>
+
     <main class="app-shell">
       <section class="hero" aria-labelledby="page-title">
         <div>
           <p class="eyebrow">50-30-20 planner</p>
-          <h1 id="page-title">Budgetor</h1>
+          <h1 id="page-title" class="sr-only">Budgetor</h1>
           <p class="hero-copy">
             Shape your monthly income into clear allocations for essentials,
             lifestyle, and long-term savings.
